@@ -12,7 +12,6 @@ $font-weights: (
     overflow: hidden;
     background-color: $navColor;
     font-weight: map-get($font-weights, bold);
-    padding:0 37% ;
     align-self: center;
     a {
         float: left;
