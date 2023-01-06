@@ -1,52 +1,14 @@
-#navbar {
-  overflow: hidden;
-  background-color: #0c0911;
-  font-weight: 700;
-  align-self: center;
-}
-#navbar a {
-  float: left;
+body::before {
   display: block;
-  color: #f2f2f2;
-  text-align: center;
-  width: 100px;
-  background-color: #0c0911;
-  padding: 14px;
-  text-decoration: none;
-}
-#navbar a:hover {
-  background-color: #333;
+  content: "";
+  height: 60px;
 }
 
-#header {
-  width: 100%;
-  background-color: #0c0911;
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
 }
-
-/* Navbar links */
-/* Page content */
-.content {
-  padding: 16px;
-}
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 60px;
-}
-
-#container {
-  height: 500px;
-  background-color: #333;
-}
-
-#con2 {
-  height: 500px;
-  background-color: #333;
+.card-size {
+  height: 300px;
 }/*# sourceMappingURL=styles.css.map */
