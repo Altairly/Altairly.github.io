@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-shadow-sm{
+    text-shadow: rgba(0, 0, 0, 0.274) 2px 2px;
+}
+.navbar{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+#navicon{
+    height: 2rem;
+    width: 2rem;
+}
+.card{
+    max-width: 30rem;
+    min-height: 33rem;
+    border-radius: 1rem;
+    transition:500ms ;
+    transition-property:all;
+    font-size: 2rem;
+}
+.card:hover{
+    transform: scaleX(1.05);
+
+}
+.card img{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    
+}
+#welimg{
+    transition-duration: 300ms;
+}
+#welimg:hover{
+    transform: rotate(-10deg);
+}
+.zoom{
+    transition-duration: 300ms;
+    transition-timing-function:ease-in ;
+    font-weight: 700;
+}
+.zoom:hover{
+    font-size: 5rem;
+}
+
+.titles{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.subtitles{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.script{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.small{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.content-table{
+    border: 2px solid black;
+}
+.tr1{
+    background-color: #333333;
+    color: whitesmoke;
+    padding :20px
+}
+.tr1:hover{
+    background-color: #1f1d36;
+}
+.tr2{
+    padding :20px
+}
+.tr2:hover{
+    background-color: #896fbc;
+}
+#courseinfo{
+    min-height: 30rem;
+}
